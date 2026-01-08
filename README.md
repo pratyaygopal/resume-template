@@ -18,3 +18,4 @@ The command above will set up a typst watcher which will compile `resume.pdf` ev
 For more documentation on typst click these links: 
 - [website](https://typst.app/)  
 - [github](https://github.com/typst/typst)
+- [compiler docs](https://typst.app/open-source/)
