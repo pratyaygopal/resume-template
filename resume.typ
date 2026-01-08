@@ -1,112 +1,111 @@
-#import "template.typ": resume, header, coursework_item, resume_heading, edu_item, exp_item, exp_item_location, project_item, skill_item
+#import "template.typ": resume, header, coursework_item, resume_heading, edu_item, exp_item, project_item, skill_item
 
 #show: resume
 
 #header(
-  name: "Pratyay Rudravaram",
-  website: "pratyay.org",
-  email: "pratyay2@illinois.edu",
-  linkedin: "linkedin.com/in/pratyaygopal",
-  number: "123456789",
-  misc: "US Citizen"
+  name: "Sigma Final Boss",
+  website: "github.com/yourhandle",
+  email: "email@domain.com",
+  linkedin: "linkedin.com/in/you",
+  number: "0000000000",
+  misc: "locked in since birth"
 )
 
 #resume_heading[Education]
 #edu_item(
-  name: "University Of Illinois Urbana Champaign",
-  degree: "Bachelor of Science in Computer Engineering, Minor in Mathematics",
-  GPA: " ",
-  date: "December 2026"
+  name: "University of Chronic Brainrot",
+  degree: "Bachelor of Science in Advanced Cookery with a minor in Strategic Mogging",
+  GPA: "6.7",
+  date: "Fall 2027"
 )
 
 #coursework_item(
-  category: "Relevant Coursework:",
-  courses: "Computer Organization and Design, FPGA, Operating Systems, VLSI Design, Logic Synthesis, Parallel Programming, Data Structures, Electronics, Analog Signal Processing",
+  category: "Relevant Lore:",
+  courses: "Introduction to Locking In Under Pressure, Applied Mewing and Facial Optimization, Parallel Mogging Systems, Operating Systems for NPC Containment, Data Structures with Zero Weak Links, FPGA Sorcery and Bit-Level Wizardry, Advanced Signal Vibes"
 )
 
 #resume_heading[Experience]
 
 #exp_item(
-  role: "RTL Verification Intern, Deepgrid Semi",
-  date: "June 2025 - July 2025",
-  [Developed a testing strategy to verify 5 modules of an open-source hardware accelerator using executed SystemVerilog UVM-esqe testbenches while ensuring 100\% functional correctness and simulation coverage],
-  [Implemented 4 self-checking testbenches with scoreboard mechanisms and functional coverage models.],
-  [Integrated Vivado-based synthesis and implementation flow to validate FPGA compliance and performance.]
+  role: "Professional Lock-In Engineer",
+  date: "December 2025 -- Present",
+  [Consistently entered high-pressure environments and locked in immediately despite missing documentation.],
+  [Transformed vague ideas and partially functioning systems into just stable enough to be considered “done”],
+  [Assumed responsibility for critical path work while publicly downplaying contributions to maintain team morale],
+  [Exited projects quietly after delivery, leaving behind functioning systems and unanswered questions]
 )
 
 #exp_item(
-  role: "Computer Architecture Course Assistant",
-  date: "Aug 2025 -- Present",
-  [Hosted office hours for class projects like the pipelined processor and multicycle set associative cache.],
-  [Mentored student project groups and helped them debug RTL, analyze timing, and promoted design thinking.],
-  [Designed exam questions for the midterm and final, ensuring alignment with course learning objectives.],
-  [Conducted project related review sessions and proctored exams for 150+ students.]
+  role: "Intern - NPC Debugger",
+  date: "May 2025 -- July 2025",
+  [Diagnosed root causes of failure by translating statements like “it was working yesterday” into actionable items],
+  [Resolved confusion across teams by identifying the single incorrect assumption everyone silently agreed on],
+  [Provided solutions that worked immediately while refusing to explain them twice]
 )
 
 #exp_item(
-  role: "Digital Systems FPGA Course Assistant",
-  date: "Jan 2025 -- Present",
-  [Hosted office hours for course’s FPGA projects including VGA text controller and RISC processor.],
-  [Moderated the 1000+ members class discord server and clarified student questions on SV and FPGA testing.],
-  [Conducted demos, reviewed SystemVerilog testbenches, and facilitated hardware debugging and verification.]
+  role: "Intern - Chief Button Clicker",
+  date: "April 2024 -- July 2024",
+  [Interacted directly with complex systems through strategic button pressing and configuration toggling.],
+  [Ignored official documentation when it conflicted with observed reality, choosing success over theory],
+  [Accidentally discovered hidden features, legacy modes, and forbidden settings while attempting unrelated tasks],
+  [Declared the system stable after achieving success three times in a row and immediately moved on]
 )
-
-#exp_item(
-  role: "President, ACM SIGARCH@UIUC",
-  date: "Aug 2024 - Present",
-  [Officer and Workshop Lead for UIUC’s premier computer architecture student organization. (sigarch.net)],
-  [Designing workshops to introduce students to RTL design and simulation, computer architecture and ISAs.],
-  [Organized and collaborated with SIGrobotics to host a recuiting event for Neuralink at UIUC.]
-)
-
 
 #resume_heading("Projects")
 
 #project_item(
-  name: "Superscalar Out-of-Order RISC-V CPU",
-  skills: "pratyay.org/docs/ooo.pdf",
-  [Created a speculative out-of-order RISC-V CPU with an ERR architecture, implementing the RV32IM spec.],
-  [Supports upto 2 instruction commits per cycle, multiple integer execution units, parametric multiplier/div, etc.],
-  [Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz]
+  name: "Thing That Shouldn’t Have Worked but Did Anyway",
+  skills: "link.to/alleged-proof",
+  [Designed and implemented a system with minimal planning, unclear constraints, and no real world applications],
+  [Conducted the majority of debugging during late-night sessions fueled by caffeine, spite, and a lot of chatgpt],
+  [Achieved a fully working state after multiple near-death moments and promptly froze the codebase],
+  [Referenced this project frequently despite never touching it again]
 )
 
 #project_item(
-  name: "GOONIX - A Unix based Operating System for RISC-V",
-  skills: "pratyay.org/docs/goonix.pdf",
-  [Implementing key components including virtual memory management, preemptive multitasking.],
-  [Built device drivers for VirtIO devices and designed a read/write ext2-based filesystem with caching.],
-  [Designed an implemented a custom filesystem inspired by FAT32 and the implemented mkfs utility in bash.]
+  name: "Overengineered Solution to a Mild Inconvenience",
+  skills: "link.to/cope",
+  [Applied a lot of abstractions and config options to a problem that could have been solved manually],
+  [Justified every design decision with phrases like “future-proofing” and “scalability” regardless of actual need],
+  [Added optional features that became mandatory due to emotional attachment],
+  [Defended the architecture passionately in discussions no one wanted to have]
 )
 
 #project_item(
-  name: "FPGA-Based Video Game – Spartan-7 Board",
-  skills: "pratyay.org/docs/fnaf.pdf",
-  [Developed a modified port of Five Nights at Freddy’s on a Spartan-7 FPGA, achieving real-time gameplay.],
-  [Implemented and integrated an SPI-based keyboard interface supporting up to six simultaneous key presses.],
-  [Designed game logic, randomized seed selection and optimized scalable graphics within 270 KiloBytes of RAM.]
+  name: "Side Project That Gradually Replaced My Personality",
+  skills: "link.to/identity-crisis",
+  [Originally started as a learning exercise before expanding uncontrollably into a full-fledged obsession],
+  [Underwent multiple full rewrites prompted by minor inconveniences and/or aesthetic dissatisfaction],
+  [Remains technically unfinished but spiritually complete]
 )
 
 #project_item(
-  name: "External Electrical Neuron (N.E.R.V.E)",
-  skills: "pratyay.org/docs/nerve.pdf",
-  [Developed a system that uses an STM32 microcontroller to send electrical signals to muscles via a TENS unit.],
-  [Programmed a muscular contraction in a user by spiking brain wave intensity using a portable EEG.]
+  name: "Group Project I Publicly Shared and Privately Solo’d",
+  skills: "trust.me.bro",
+  [Quietly resolved last-minute failures to ensure deadlines were met and presentations appeared smooth],
+  [Allowed credit to be distributed evenly to preserve social harmony and reduce meeting length],
+  [Gained invaluable character development and trust issues]
 )
 
 #resume_heading("Technical Skills")
+
 #skill_item(
-  category: "Languages",
-  skills: "SystemVerilog, Verilog, Bash, Assembly, C, C++, VHDL, TCL, CUDA, Python, Java"
+  category: "Languages: ",
+  skills: "Language A, Language B, Language C, That One Scripting Language"
 )
+
 #skill_item(
-  category: "Tools",
-  skills: "Git, Intel Quartus, Xilinx Vivado, VS Code, Verdi, VCS, Verilator, Linux"
+  category: "Tools: ",
+  skills: "Tool 1, Tool 2, Tool 3, StackOverflow, Random GitHub Gist from 2016"
 )
+
 #skill_item(
-  category: "Protocols",
-  skills: "AXI-4, AXI Stream, SPI, TCP, UDP, UART, I2C"
+  category: "Protocols: ",
+  skills: "Protocol X, Protocol Y, Handshakes, Timeouts, Vibes, Hope"
 )
+
 #skill_item(
-  category: "Lab Tools",
-  skills: "Falstad, Arduino, Oscilloscopes, Raspberry Pi, KICAD, ORCAD, PADS, GPUS"
+  category: "Lab Equipment: ",
+  skills: "Oscilloscope (broken), Breadboard with Loose Wires, Laptop Running on 2% Battery"
 )
