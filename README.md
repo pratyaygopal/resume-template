@@ -1,7 +1,7 @@
 # resume-template
 This is my custom resume template in typst. 
 
-The LaTEX toolchain is too cooked to install locally. 
+The LaTEX toolchain is kinda annoying to install locally. 
 
 Fedora Setup:
 ```
